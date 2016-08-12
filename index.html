@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Siren's Home</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--导航开始-->
+<nav id="nav" class = "navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="row">
+		<div class="col-md-6">
+			<a class = "navbar-brand text-right" href="#">海怪的家</a>		
+		</div>
+		<div class="col-md-3">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#about-me">关于我</a>
+					</li>
+					<li>
+						<a href="#cloud-poem">诗云</a>
+					</li>
+					<li>
+						<a href="#novel">小说</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=4330176&auto=1&height=32"></iframe>
+		</div>
+	</div>
+</nav>
+<!--导航结束-->
+<!--背景容器-->
+<div id="main-wrapper" class="main-wrapper">
+<!--欢迎界面-->
+	<div class="board1">
+		<div class="col-md-4 col-md-offset-4 inner1">
+			<h1>SIREN'S HOME</h1>
+			<p class="sub-heading">to see, to find, to feel, to live</p>
+			<button id="button-in" class="btn btn-primary btn-lg">了解我</button>
+		</div>
+	</div>
+<!--主内容容器-->
+	<div id="main-container" class="container">
+	<!--主面板-->
+		<div id="panel1" class="panel panel-default">
+			<div class="panel-body">
+			<!--关于我标题-->
+				<div id="about-me" class="page-header">
+					<h1 class="text-center">关于我</h1>
+				</div>
+			<!--关于我子面板-->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h4>我有一个毛病，与人交往时谈“我”太多而谈“你”太少。那么就在我的BLOG里多谈一些我，这样在别的地方也许就能少谈一些我了吧。<br>
+						<br>介绍一下自己，我是ALEX、也是SIREN、也是溺水海怪、也是拜耳玫瑰、也是洋葱，还有一个不告诉你的现实名字。在不同的地方我是不同的人，只不过碰巧共享一具肉体而已，你可以这样认为。<br>
+						<br>我来自BUPT，我喜欢足球和音乐，我喜欢写诗并自我陶醉，我喜欢阅读，我喜欢写作，我喜欢能独立思考的人和理智的人，除了自言自语我不喜欢冷冰冰地讲话。这里是我的BLOG，我将介绍一些和我相关的东西。<br>
+						<br>我是一个彻头彻尾的足球爱好者，一个无可救药的利物浦球迷，我冷静克制地热爱这支来自英格兰西北默西塞德郡的红色球队。<br>
+						利物浦的队歌和箴言是"You'll Never Walk Alone"，你永远不会独行。简单又真挚，永不言弃，永远热情。
+							</h4>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<img src="img/2.jpg" id="pic-lfc" class="img-thumbnail">
+								<div id="caption-lfc" class="caption">
+									<h3 class="text-center">利物浦的香克利大门</h2>
+								</div>
+							</div>
+						</div>
+						<br><h4>在音乐方面，我是一个口味宽泛的人，基本各种曲风都能接受。略微偏爱英伦摇滚和国产原创诸如民谣风和国产摇滚等等。Keane、Travis、Greenday、Coldplay、周杰伦、李志、万能青年旅店等等是我非常喜欢的乐队/歌手。我的网易云有一大长串的歌单想和许多人分享，时不时地推送歌曲也是我的爱好。</h4><br>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<img src="img/3.jpg" id="pic-coldplay" class="img-thumbnail">
+								<div id="caption-coldplay" class="caption">
+									<h3 class="text-center">酷玩乐队的专辑封面</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--诗云标题-->
+				<div id="cloud-poem" class="page-header">
+					<h1 class="text-center">诗云</h1>
+				</div>
+			<!--诗云子面板-->
+				<div class="panel panel-default">		
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-4 poem-box">	
+								<div id="poem-box1"></div>
+								<h1>冬天</h1>
+								<p>在行星的一百七十亿四千五百一十二万个季节里<br>
+								丢失了一个秋天</p>
+							</div>
+							<div class="col-md-4 poem-box">
+								<div id="poem-box2"></div>
+								<h1>白天爱上黑夜</h1>
+								<p><br><br>
+								所以<br>
+								晨线追逐昏线</p>
+							</div>
+							<div class="col-md-4 poem-box">	
+								<div id="poem-box3"></div>
+								<h1>白夜</h1>
+								<p>把星星抹杀<br>
+								把星星抹杀<br>
+								聚光灯开大<br>
+								造一个没有夜的国家<br>
+								<br>不要夜<br>
+								不要人的不可自杀<br>
+								要像锯齿一样平滑<br>
+								永昼之下<br>
+								再无卡夫卡</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 poem-box">
+								<div id="poem-box4"></div>
+								<h1>年</h1>
+								<p>时间的怪兽<br>
+								叫年<br>
+								张牙舞爪<br>
+								吃一切<br>
+								<br>心里的怪兽<br>
+								叫年<br>
+								十万心事<br>
+								化云烟</p>
+							</div>
+							<div class="col-md-4 poem-box">
+								<div id="poem-box5"></div>
+								<h1>黑洞与星的爱情</h1>
+								<p>嘿，也许<br>
+								我流浪无数光年的旅行<br>
+								就只为遇见你<br>
+								<br>那，所以<br>
+								保持你我之间这段距离<br>
+								不要再靠近</p>
+							</div>
+							<div class="col-md-4 poem-box">
+								<div id="poem-box6"></div>
+								<h1>你</h1>
+								<p><br>来我身边<br>
+								<br>给我拥抱<br>
+								<br>带我去看山峦和海啸</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--小说标题-->
+				<div id="novel" class="page-header">
+					<h1 class="text-center">小说</h1>
+				</div>
+			<!--小说子面板-->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h2>背号</h2>
+						<h4>文/溺水海怪</h4>
+						<div class="row">
+							<div class="col-md-12">
+								<img src="img/10.jpg" class="img-thumbnail" style="width:100%">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+							<!--排版盒子左-->
+								<div class="novel-box-left">
+								<p>&emsp;&emsp;英格兰的晴天总是格外珍贵，尤其是在伦敦，尤其是这样的朗朗晴空。 这的确是一个适合晒太阳的日子，视阳光如稀缺资源的护士推着轮椅上的小琼斯来到医院的小草坪。</p>
+								<p>&emsp;&emsp;“晒太阳有助于你的康复。”胖护士如是说，很干脆地无视了小琼斯的一张臭脸。好吧，确实是很臭的脸。他已经15岁了，他坚持认为自己已经是一个男人。能让一个15岁的男人摆出这种表情的原因只可能有三：一、他爱上了一个不爱他的女孩。二、遭受了迄今人生最大的一次冲击。三、他正要做出第一个重大抉择。很不幸，除了第一条，琼斯都占了。</p>
+								<p>&emsp;&emsp;琼斯是一个青年球员，即将成为职业球员，前途光明的小子。而且他正效力在女王公园巡游者队——英格兰甲级数一数二的强队。作为青年队中最有天分的家伙，踢上高水平的职业比赛对他来说只是时间问题。“天才”，每一个观看过他比赛的球探或教练都会给出这么一个夸张的评价，确切的说，一点都不夸张。</p>
+								<p>&emsp;&emsp;然而物理学告诉我们：站得越高，摔得越痛。套着无数光环扑腾着翅膀向上飞的小琼斯，做梦也没有料到自己会遭受这么严重的伤，十字韧带撕裂。生平第一次地，琼斯开始对自己最爱的足球产生了恐惧。只要他一闭上眼睛，时光就回溯到那个长得可怕的下半场：耳旁呼啸的风、对方鲜红的球衣、漫天的尘土、队友惊恐的眼神、雪白的担架……他不止一次地在噩梦中醒来，满身冷汗。</p>
+								<p>&emsp;&emsp;琼斯不确定自己是否还有踏上绿茵场的勇气了。也许，回到普通的中学念书，毕业后找一份稳定的工作，在教堂的钟声和一成不变的安稳中度过余生，也是一个不错的选择。</p>
+								<p>&emsp;&emsp;但他怎么舍得放弃？</p>
+								<p>&emsp;&emsp;琼斯只觉得头脑里有一台榨果汁机，不断地搅，不断地搅。他甚至害怕自己的伤势痊愈，害怕抉择的那一天到来。</p>
+								<p>&emsp;&emsp;“嘿，年轻的小朋友，发什么呆呢，”一个带着浓重拉丁口音的招呼，琼斯从沉思中回过神来，终于发现自己面前这个高大的邋遢男人，同样穿着宽大的病号服。</p>
+								<p>&emsp;&emsp;琼斯不耐烦地偏过头去，他实在不愿意对这种脸上就写着“不靠谱”的人予以任何搭理。</p>
+								<p>&emsp;&emsp;“哦哦！我认识你，小朋友，青年队的小天才，琼斯·斯坦森！”男人大呼大叫起来。</p>
+								<p>&emsp;&emsp;也许是发现了甩不开这个话痨，琼斯没好气地以问代答：“你又是谁？”</p>
+								<p>&emsp;&emsp;“什么？你竟然不认识俺，女王公园巡游者队的超级明星前锋——蒂亚戈？”拉丁男人手舞足蹈起来。</p>
+								<p>&emsp;&emsp;由于青训机制的独立，琼斯与巡游者队的一线队员们谈不上相熟，眼前的男人肯定不像他自我介绍地那样出名。但琼斯在脑子里一搜索，很快有了答案。</p>
+								<p>&emsp;&emsp;“我倒是知道一线队有个替补前锋叫这个名字。”</p>
+								<p>&emsp;&emsp;被戳穿真实身份的蒂亚戈尴尬地挠挠头，想办法转移话题，“对了，小朋友，你是受了重伤吧？你可是我们的明日之星啊，大家都关注着你呢。” </p>
+								<p>&emsp;&emsp;“我不是小朋友！”琼斯攥紧拳头，没再说话。</p>
+								<p>&emsp;&emsp;“好吧好吧，小伙子。大叔我明天就能出院了哦……现在可是球队冲超的关键时刻。”蒂亚戈顿了一顿，好像从琼斯的反应看出了点什么蹊跷，“小朋友，难道你……被伤病吓唬住了？” 足坛曾经也有很多被伤病所打败的天才，生理上的伤病可以愈合，心理的阴影和自信的失踪却是最难治愈的。年轻的球员，尤其难过这一道坎。</p>
+								<p>&emsp;&emsp;“是又怎样！我再也不踢足球了！” </p>
+								<p>&emsp;&emsp;面对琼斯的突然爆发，空气沉默起来。半晌，蒂亚戈揉了揉自己卷曲的头发，收起了嬉皮笑脸。“我第一次受重伤是在20岁，小腿骨折。等待康复的那段时间里，暗无天日，简直是我生命中最难熬的一段时间。我也和你一样，质问自己能否继续踢球，是否还有勇气面对对抗和拼抢。我内心的小男孩也在痛苦地挣扎、害怕。”</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+							<!--排版盒子右-->
+								<div class="novel-box-right">
+									<p>他微妙地停顿，“十年过去了，我还是熬过来了。我终于懂得：我当初所恐惧的，并不是伤病，而是恐惧本身。而我爱足球，爱这个赛场，这份爱足够支撑我击败恐惧。” </p>
+									<p>&emsp;&emsp;琼斯作出一副不屑一顾的表情，眼睛里却似乎有了光芒流转。</p>
+									<p>&emsp;&emsp;“为什么不打一个赌呢？”蒂亚戈恢复了滑稽的表情，“赛季已经将近尾声了吧？现在正是球队冲击超级联赛的关键时段。不如这样吧，如果我能帮助球队成功升级，你就答应我一件事情。”</p>
+									<p>&emsp;&emsp;“让我继续足球？”</p>
+									<p>&emsp;&emsp;“不，如果我赌赢了，你就答应我：听从自己内心的声音，做你真正想做的事情。”</p>
+									<p>&emsp;&emsp;“……。凭一个刚伤愈的替补前锋？冲超可不是开玩笑……”琼斯并没有发现，他的心情已不再烦躁。</p>
+									<p>“哈哈哈，we will see. ”</p>
+									<br><p>&emsp;&emsp;一个月后。</p>
+									<p>&emsp;&emsp;这是本赛季英冠的最后一场比赛了，女王公园巡游者对阵米德尔斯堡，双方都不是好捏的软柿子，这显然会是一场鏖战，女王公园巡游者将和米德尔斯堡争夺英冠的最后一个升级名额，成王败寇，在此一战。</p>
+									<p>&emsp;&emsp;琼斯很准时的守候在电视机前，当然，尚未摆脱他的轮椅。</p>
+									<p>&emsp;&emsp;“观众朋友们好，欢迎收看这场焦点战役，QPR（Queens Park Rangers Football Club）和米德尔斯堡，究竟谁能升级呢？我们看，本场比赛QPR的首发前锋仍是14号蒂亚戈，他在过去几场比赛中打入了5球，状态非常好，刚刚伤愈就挤到了原来的主力前锋，常驻首发……也许他今天会有所表现？”</p>
+									<p>&emsp;&emsp;“上半场结束，比赛十分的僵持，虽然蒂亚戈得到了几次不错的机会，但都被门将一一化解。显然他今天没带射门靴（讽刺）。”</p>
+									<p>&emsp;&emsp;琼斯感到手心十分粘湿。</p>
+									<p>&emsp;&emsp;“下半场进行到了80分钟……比赛还有10分钟就结束了，这真是一场无趣的表演……等等我们看……14号蒂亚戈前场断球，我的天呐，真是一个拼出来的机会……带球往前冲……后卫铲球……抢射！！！GOALLLLLLLLLLLLLLLLLLLLLLLL!球进了！蒂亚戈抢在后卫前面将球捅进！QPR笑纳大礼！这个进球杀死了比赛！！！”</p>
+									<p>&emsp;&emsp;“蒂亚戈是本场比赛的英雄……等等……他倒在了地上……我们看慢镜头回放……哦！后卫没来得及收脚，他被铲倒了！看来不能坚持了，他被担架抬下场，球迷们站起来为他鼓掌……蒂亚戈是QPR冲超成功的英雄！”</p>
+									<p>&emsp;&emsp;电视机前的琼斯偷偷地抹了一下眼睛，拳头攥得更紧了。</p><br>
+									<p>&emsp;&emsp;第二天，报纸头条：QPR升级功臣旧伤复发，今晨宣布退役。</p><br>
+									<p>&emsp;&emsp;两年后。</p>
+									<p>&emsp;&emsp;观众朋友们大家好，欢迎收看新赛季的英超比赛，本场比赛由英超新秀女王公园巡游者对阵富勒姆。值得一提的是，令人瞩目的天才球员琼斯·斯坦森将迎来他在女王公园巡游者一线队的第一场首发比赛，年仅17岁！我们看，球员们入场了。</p>
+									<p>&emsp;&emsp;穿14号球衣的正是琼斯·斯坦森，等等，好像有哪里不对……他的背号印的好像不是自己的名字，这是怎么回事？也许是穿错球衣了。摄像师给了一个特写，我们来看一看……</p>
+									<p>&emsp;&emsp;14号——蒂亚戈？！”</p><br>
+									<p>&emsp;&emsp;完。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--页脚开始-->
+	<footer class="text-center">
+		<hr>
+		<p id="return-top"><a href="#main-wrapper">返回顶部</a></p>
+		<h5><a href="http://weibo.com/Alex0829">微博主页</a>&nbsp;&nbsp;QQ:540775591&nbsp;&nbsp;&copy ALEX'S BLOG</h5>
+	</footer>
+</div>		
+</body>
+</html>
